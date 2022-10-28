@@ -1,5 +1,6 @@
 import React from 'react';
 import { Figure, Button } from 'react-bootstrap';
+import { ArrowRight } from 'react-bootstrap-icons';
 
 const ChartType = () => (
   <Figure>
@@ -8,7 +9,7 @@ const ChartType = () => (
         width={50}
         height={50}
         alt="Bar Chart"
-        src="https://static.thenounproject.com/png/2402371-200.png"
+        src="./images/chart/BarChart.png"
       />
       <br />
       Bar Chart
@@ -19,7 +20,7 @@ const ChartType = () => (
         width={50}
         height={50}
         alt="Stacked Bars"
-        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAABlBMVEX///8AAABVwtN+AAABEklEQVR4nO3PMRKDMAxFweT+l05PIRsGwXe8r/VY0n4+kiRJkiRpmb6HRu9nAwEBAQEBuXIgyNVAJuf2XF0sBBnM7bm6WAgymNtzdbEQZDC35+piIchgbs/VxUKQwdyeq4uFIIO5PVcXC89CZgMBAQEB2RuyTCBpgaQFkhZIWiBpgaQFktY2kOP704GANAUC0hTIU5DZu0BAQEBAQEBAQEBAQN4KBKQpEJCmQKY/pgWSFkhaIGmBpAWSFkhaIGltAzm+3x0ICAgICMiVA0FAQEBAQEBAQEBAQLogd4FBQEBAQNaGLBNIWiBpgaQFkhZIWiBpgaT1t5C0QNICSQskLZC0QNICSQskrf0gkiRJkiTp9X6iGDEBV3EOWgAAAABJRU5ErkJggg=="
+        src="./images/chart/StackedBars.png"
       />
       <br />
       Stacked Bars
@@ -30,7 +31,7 @@ const ChartType = () => (
         width={50}
         height={50}
         alt="Grouped Bars"
-        src="holder.js/171x180"
+        src="./images/chart/GroupedBar.jpg"
       />
       <br />
       Grouped Bars
@@ -41,7 +42,7 @@ const ChartType = () => (
         width={50}
         height={50}
         alt="Split Bars"
-        src="holder.js/171x180"
+        src="./images/chart/splitbars.png"
       />
       <br />
       Split Bars
@@ -49,10 +50,10 @@ const ChartType = () => (
 
     <Button variant="outline-dark">
       <Figure.Image
-        width={50}
+        width={90}
         height={50}
         alt="Bullet Bars"
-        src="holder.js/171x180"
+        src="./images/chart/bulletbars.png"
       />
       <br />
       Bullet Bars
@@ -63,7 +64,7 @@ const ChartType = () => (
         width={50}
         height={50}
         alt="Column Chart"
-        src="holder.js/171x180"
+        src="./images/chart/ColumnChart.png"
       />
       <br />
       Column Chart
@@ -74,7 +75,7 @@ const ChartType = () => (
         width={50}
         height={50}
         alt="Stacked Column Chart"
-        src="holder.js/171x180"
+        src="./images/chart/StackedColumnChart.png"
       />
       <br />
       Stacked Column Chart
@@ -84,11 +85,11 @@ const ChartType = () => (
       <Figure.Image
         width={50}
         height={50}
-        alt="Grouped Coolumn Chart"
-        src="holder.js/171x180"
+        alt="Grouped Column Chart"
+        src="./images/chart/GroupedColumnChart.png"
       />
       <br />
-      Grouped Coolumn Chart
+      Grouped Column Chart
     </Button>
 
     <Button variant="outline-dark">
@@ -96,7 +97,7 @@ const ChartType = () => (
         width={50}
         height={50}
         alt="171x180"
-        src="holder.js/171x180"
+        src="./images/chart/lines.png"
       />
       <br />
       Lines
@@ -107,7 +108,7 @@ const ChartType = () => (
         width={50}
         height={50}
         alt="171x180"
-        src="holder.js/171x180"
+        src="./images/chart/areachart.png"
       />
       <br />
       Area Chart
@@ -118,7 +119,7 @@ const ChartType = () => (
         width={50}
         height={50}
         alt="171x180"
-        src="holder.js/171x180"
+        src="./images/chart/scatterplot.png"
       />
       <br />
       Scatter Plot
@@ -129,7 +130,7 @@ const ChartType = () => (
         width={50}
         height={50}
         alt="171x180"
-        src="holder.js/171x180"
+        src="./images/chart/table.png"
       />
       <br />
       Table
@@ -140,7 +141,7 @@ const ChartType = () => (
         width={50}
         height={50}
         alt="171x180"
-        src="holder.js/171x180"
+        src="./images/chart/dotplot.png"
       />
       <br />
       Dot Plot
@@ -151,7 +152,7 @@ const ChartType = () => (
         width={50}
         height={50}
         alt="171x180"
-        src="holder.js/171x180"
+        src="./images/chart/rangeplot.png"
       />
       <br />
       Range Plot
@@ -162,7 +163,7 @@ const ChartType = () => (
         width={50}
         height={50}
         alt="171x180"
-        src="holder.js/171x180"
+        src="./images/chart/arrowplot.png"
       />
       <br />
       Arrow Plot
@@ -173,7 +174,7 @@ const ChartType = () => (
         width={50}
         height={50}
         alt="171x180"
-        src="holder.js/171x180"
+        src="./images/chart/piechart.png"
       />
       <br />
       Pie Chart
@@ -184,7 +185,7 @@ const ChartType = () => (
         width={50}
         height={50}
         alt="171x180"
-        src="holder.js/171x180"
+        src="./images/chart/donutchart.jpeg"
       />
       <br />
       Donut Chart
@@ -195,7 +196,7 @@ const ChartType = () => (
         width={50}
         height={50}
         alt="171x180"
-        src="holder.js/171x180"
+        src="./images/chart/multiplepies.jpeg"
       />
       <br />
       Multiple Pies
@@ -206,7 +207,7 @@ const ChartType = () => (
         width={50}
         height={50}
         alt="171x180"
-        src="holder.js/171x180"
+        src="./images/chart/multipledonuts.png"
       />
       <br />
       Multiple Donuts
@@ -217,12 +218,13 @@ const ChartType = () => (
         width={50}
         height={50}
         alt="171x180"
-        src="holder.js/171x180"
+        src="./images/chart/electiondonut.png"
       />
       <br />
       Election Donut
     </Button>
     <hr />
+    <Button variant="outline-primary">Proceed<ArrowRight /></Button>
   </Figure>
 );
 export default ChartType;

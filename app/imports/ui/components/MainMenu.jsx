@@ -9,10 +9,10 @@ const MainMenu = () => (
       <Col sm={3}>
         <Nav variant="pills" className="flex-column">
           <Nav.Item>
-            <Nav.Link eventKey="first"><strong>3 </strong>Visualize</Nav.Link>
+            <Nav.Link eventKey="first"><strong>1 </strong>Visualize</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="second"><strong>4 </strong>Publish & Embed</Nav.Link>
+            <Nav.Link eventKey="second"><strong>2 </strong>Publish & Embed</Nav.Link>
           </Nav.Item>
         </Nav>
       </Col>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Form, Row, Col } from 'react-bootstrap';
-import { Plus } from 'react-bootstrap-icons';
+import { ArrowLeft, ArrowRight, Plus } from 'react-bootstrap-icons';
 
 const Annotate = () => (
   <Form>
@@ -48,6 +48,8 @@ const Annotate = () => (
     <br />
     <Button variant="secondary" size="sm"><Plus />Add range highlight</Button>{' '}
     <hr />
+    <Button variant="outline-dark"><ArrowLeft />back</Button>
+    <Button variant="outline-primary">Proceed<ArrowRight /></Button>
   </Form>
 );
 export default Annotate;

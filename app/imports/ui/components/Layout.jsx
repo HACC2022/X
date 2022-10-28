@@ -1,5 +1,6 @@
 import React from 'react';
-import { Form, Row, Col } from 'react-bootstrap';
+import { Form, Row, Col, Button } from 'react-bootstrap';
+import { ArrowLeft, ArrowRight } from 'react-bootstrap-icons';
 
 const Layout = () => (
   <Form>
@@ -83,6 +84,8 @@ const Layout = () => (
       />
     </Form.Group>
     <hr />
+    <Button variant="outline-dark"><ArrowLeft />back</Button>
+    <Button variant="outline-primary">Proceed<ArrowRight /></Button>
   </Form>
 );
 export default Layout;

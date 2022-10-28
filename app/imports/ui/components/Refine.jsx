@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Form, Col, Row } from 'react-bootstrap';
+import { Form, Col, Row, Button } from 'react-bootstrap';
+import { ArrowLeft, ArrowRight } from 'react-bootstrap-icons';
 
 const Refine = () => {
   const [value, setValue] = useState(0);
@@ -325,6 +326,8 @@ const Refine = () => {
       ))}
       <Form.Label column sm="3"><strong>Fill area between lines</strong></Form.Label>
       <hr />
+      <Button variant="outline-dark"><ArrowLeft />back</Button>
+      <Button variant="outline-primary">Proceed<ArrowRight /></Button>
     </Form>
 
   );

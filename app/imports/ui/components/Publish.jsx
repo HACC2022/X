@@ -10,7 +10,7 @@ const Publish = () => (
         width={171}
         height={180}
         alt="171x180"
-        src="holder.js/171x180"
+        src="./images/chart/uploading.png"
       />
       <br />
       Publish now
