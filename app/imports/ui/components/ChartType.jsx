@@ -5,10 +5,10 @@ const ChartType = () => (
   <Figure>
     <Button variant="outline-dark">
       <Figure.Image
-        width={171}
-        height={180}
-        alt="171x180"
-        src="holder.js/171x180"
+        width={50}
+        height={50}
+        alt="Bar Chart"
+        src="https://static.thenounproject.com/png/2402371-200.png"
       />
       <br />
       Bar Chart
@@ -16,211 +16,211 @@ const ChartType = () => (
 
     <Button variant="outline-dark">
       <Figure.Image
-        width={171}
-        height={180}
-        alt="171x180"
-        src="holder.js/171x180"
+        width={50}
+        height={50}
+        alt="Stacked Bars"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAABlBMVEX///8AAABVwtN+AAABEklEQVR4nO3PMRKDMAxFweT+l05PIRsGwXe8r/VY0n4+kiRJkiRpmb6HRu9nAwEBAQEBuXIgyNVAJuf2XF0sBBnM7bm6WAgymNtzdbEQZDC35+piIchgbs/VxUKQwdyeq4uFIIO5PVcXC89CZgMBAQEB2RuyTCBpgaQFkhZIWiBpgaQFktY2kOP704GANAUC0hTIU5DZu0BAQEBAQEBAQEBAQN4KBKQpEJCmQKY/pgWSFkhaIGmBpAWSFkhaIGltAzm+3x0ICAgICMiVA0FAQEBAQEBAQEBAQLogd4FBQEBAQNaGLBNIWiBpgaQFkhZIWiBpgaT1t5C0QNICSQskLZC0QNICSQskrf0gkiRJkiTp9X6iGDEBV3EOWgAAAABJRU5ErkJggg=="
       />
       <br />
-      Bar Chart
+      Stacked Bars
     </Button>
 
     <Button variant="outline-dark">
       <Figure.Image
-        width={171}
-        height={180}
-        alt="171x180"
+        width={50}
+        height={50}
+        alt="Grouped Bars"
         src="holder.js/171x180"
       />
       <br />
-      Bar Chart
+      Grouped Bars
     </Button>
 
     <Button variant="outline-dark">
       <Figure.Image
-        width={171}
-        height={180}
-        alt="171x180"
+        width={50}
+        height={50}
+        alt="Split Bars"
         src="holder.js/171x180"
       />
       <br />
-      Bar Chart
+      Split Bars
     </Button>
 
     <Button variant="outline-dark">
       <Figure.Image
-        width={171}
-        height={180}
-        alt="171x180"
+        width={50}
+        height={50}
+        alt="Bullet Bars"
         src="holder.js/171x180"
       />
       <br />
-      Bar Chart
+      Bullet Bars
     </Button>
 
     <Button variant="outline-dark">
       <Figure.Image
-        width={171}
-        height={180}
-        alt="171x180"
+        width={50}
+        height={50}
+        alt="Column Chart"
         src="holder.js/171x180"
       />
       <br />
-      Bar Chart
+      Column Chart
     </Button>
 
     <Button variant="outline-dark">
       <Figure.Image
-        width={171}
-        height={180}
-        alt="171x180"
+        width={50}
+        height={50}
+        alt="Stacked Column Chart"
         src="holder.js/171x180"
       />
       <br />
-      Bar Chart
+      Stacked Column Chart
     </Button>
 
     <Button variant="outline-dark">
       <Figure.Image
-        width={171}
-        height={180}
-        alt="171x180"
+        width={50}
+        height={50}
+        alt="Grouped Coolumn Chart"
         src="holder.js/171x180"
       />
       <br />
-      Bar Chart
+      Grouped Coolumn Chart
     </Button>
 
     <Button variant="outline-dark">
       <Figure.Image
-        width={171}
-        height={180}
+        width={50}
+        height={50}
         alt="171x180"
         src="holder.js/171x180"
       />
       <br />
-      Bar Chart
+      Lines
     </Button>
 
     <Button variant="outline-dark">
       <Figure.Image
-        width={171}
-        height={180}
+        width={50}
+        height={50}
         alt="171x180"
         src="holder.js/171x180"
       />
       <br />
-      Bar Chart
+      Area Chart
     </Button>
 
     <Button variant="outline-dark">
       <Figure.Image
-        width={171}
-        height={180}
+        width={50}
+        height={50}
         alt="171x180"
         src="holder.js/171x180"
       />
       <br />
-      Bar Chart
+      Scatter Plot
     </Button>
 
     <Button variant="outline-dark">
       <Figure.Image
-        width={171}
-        height={180}
+        width={50}
+        height={50}
         alt="171x180"
         src="holder.js/171x180"
       />
       <br />
-      Bar Chart
+      Table
     </Button>
 
     <Button variant="outline-dark">
       <Figure.Image
-        width={171}
-        height={180}
+        width={50}
+        height={50}
         alt="171x180"
         src="holder.js/171x180"
       />
       <br />
-      Bar Chart
+      Dot Plot
     </Button>
 
     <Button variant="outline-dark">
       <Figure.Image
-        width={171}
-        height={180}
+        width={50}
+        height={50}
         alt="171x180"
         src="holder.js/171x180"
       />
       <br />
-      Bar Chart
+      Range Plot
     </Button>
 
     <Button variant="outline-dark">
       <Figure.Image
-        width={171}
-        height={180}
+        width={50}
+        height={50}
         alt="171x180"
         src="holder.js/171x180"
       />
       <br />
-      Bar Chart
+      Arrow Plot
     </Button>
 
     <Button variant="outline-dark">
       <Figure.Image
-        width={171}
-        height={180}
+        width={50}
+        height={50}
         alt="171x180"
         src="holder.js/171x180"
       />
       <br />
-      Bar Chart
+      Pie Chart
     </Button>
 
     <Button variant="outline-dark">
       <Figure.Image
-        width={171}
-        height={180}
+        width={50}
+        height={50}
         alt="171x180"
         src="holder.js/171x180"
       />
       <br />
-      Bar Chart
+      Donut Chart
     </Button>
 
     <Button variant="outline-dark">
       <Figure.Image
-        width={171}
-        height={180}
+        width={50}
+        height={50}
         alt="171x180"
         src="holder.js/171x180"
       />
       <br />
-      Bar Chart
+      Multiple Pies
     </Button>
 
     <Button variant="outline-dark">
       <Figure.Image
-        width={171}
-        height={180}
+        width={50}
+        height={50}
         alt="171x180"
         src="holder.js/171x180"
       />
       <br />
-      Bar Chart
+      Multiple Donuts
     </Button>
 
     <Button variant="outline-dark">
       <Figure.Image
-        width={171}
-        height={180}
+        width={50}
+        height={50}
         alt="171x180"
         src="holder.js/171x180"
       />
       <br />
-      Bar Chart
+      Election Donut
     </Button>
     <hr />
   </Figure>
