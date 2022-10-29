@@ -16,6 +16,14 @@ import TopMenu from '../components/TopMenu';
 import SignIn from '../pages/SignIn';
 import NotAuthorized from '../pages/NotAuthorized';
 import X from '../pages/X';
+import VerticalBarChart from '../pages/VerticalBarChart';
+import StackedBarChart from '../pages/StackedBarChart';
+import GroupedBarChart from '../pages/GroupedBarChart';
+import AreaChart from '../pages/AreaChart';
+import LineChart from '../pages/LineChart';
+import PieChart from '../pages/PieChart';
+import DoughnutChart from '../pages/DoughnutChart';
+import ScatterChart from '../pages/ScatterChart';
 
 /** Top-level layout component for this application. Called in imports/startup/client/startup.jsx. */
 const App = () => (
@@ -27,6 +35,14 @@ const App = () => (
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/signout" element={<SignOut />} />
+        <Route path="/verticalbarchart" element={<VerticalBarChart />} />
+        <Route path="/stackedbarchart" element={<StackedBarChart />} />
+        <Route path="/groupedbarchart" element={<GroupedBarChart />} />
+        <Route path="/areachart" element={<AreaChart />} />
+        <Route path="/linechart" element={<LineChart />} />
+        <Route path="/piechart" element={<PieChart />} />
+        <Route path="/doughnutchart" element={<DoughnutChart />} />
+        <Route path="/scatterchart" element={<ScatterChart />} />
         <Route path="/home" element={<ProtectedRoute><Landing /></ProtectedRoute>} />
         <Route path="/list" element={<ProtectedRoute><ListStuff /></ProtectedRoute>} />
         <Route path="/add" element={<ProtectedRoute><AddStuff /></ProtectedRoute>} />

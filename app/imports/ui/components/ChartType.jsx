@@ -1,5 +1,6 @@
 import React from 'react';
 import { Figure, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const ChartType = () => (
   <Figure>
@@ -11,7 +12,7 @@ const ChartType = () => (
         src="https://static.thenounproject.com/png/2402371-200.png"
       />
       <br />
-      Bar Chart
+      <Link to="/verticalbarchart">Bar Chart</Link>
     </Button>
 
     <Button variant="outline-dark">
@@ -22,7 +23,7 @@ const ChartType = () => (
         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAABlBMVEX///8AAABVwtN+AAABEklEQVR4nO3PMRKDMAxFweT+l05PIRsGwXe8r/VY0n4+kiRJkiRpmb6HRu9nAwEBAQEBuXIgyNVAJuf2XF0sBBnM7bm6WAgymNtzdbEQZDC35+piIchgbs/VxUKQwdyeq4uFIIO5PVcXC89CZgMBAQEB2RuyTCBpgaQFkhZIWiBpgaQFktY2kOP704GANAUC0hTIU5DZu0BAQEBAQEBAQEBAQN4KBKQpEJCmQKY/pgWSFkhaIGmBpAWSFkhaIGltAzm+3x0ICAgICMiVA0FAQEBAQEBAQEBAQLogd4FBQEBAQNaGLBNIWiBpgaQFkhZIWiBpgaT1t5C0QNICSQskLZC0QNICSQskrf0gkiRJkiTp9X6iGDEBV3EOWgAAAABJRU5ErkJggg=="
       />
       <br />
-      Stacked Bars
+      <Link to="/stackedbarchart">Stacked Bars</Link>
     </Button>
 
     <Button variant="outline-dark">
@@ -33,7 +34,7 @@ const ChartType = () => (
         src="holder.js/171x180"
       />
       <br />
-      Grouped Bars
+      <Link to="/groupedbarchart">Grouped Bars</Link>
     </Button>
 
     <Button variant="outline-dark">
@@ -99,7 +100,7 @@ const ChartType = () => (
         src="holder.js/171x180"
       />
       <br />
-      Lines
+      <Link to="/linechart">Line Chart</Link>
     </Button>
 
     <Button variant="outline-dark">
@@ -110,7 +111,7 @@ const ChartType = () => (
         src="holder.js/171x180"
       />
       <br />
-      Area Chart
+      <Link to="/areachart">Area Chart</Link>
     </Button>
 
     <Button variant="outline-dark">
@@ -121,7 +122,7 @@ const ChartType = () => (
         src="holder.js/171x180"
       />
       <br />
-      Scatter Plot
+      <Link to="/scatterchart">Scatter Chart</Link>
     </Button>
 
     <Button variant="outline-dark">
@@ -176,7 +177,7 @@ const ChartType = () => (
         src="holder.js/171x180"
       />
       <br />
-      Pie Chart
+      <Link to="/piechart">Pie Chart</Link>
     </Button>
 
     <Button variant="outline-dark">
@@ -187,7 +188,7 @@ const ChartType = () => (
         src="holder.js/171x180"
       />
       <br />
-      Donut Chart
+      <Link to="/doughnutchart">Doughnut Chart</Link>
     </Button>
 
     <Button variant="outline-dark">
