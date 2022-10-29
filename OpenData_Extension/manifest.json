@@ -1,0 +1,32 @@
+{
+  "name": "OpenData Visualization Tool",
+  "description": "An extension for visualizing dataset in OpenData",
+  "version": "1.0",
+  "manifest_version": 3,
+  "author": "HACC 2022 Team X",
+
+  "icons": { "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png" },
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "extension_icon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://opendata.hawaii.gov/dataset/*"],
+      "js": ["content-script.js"]
+    }
+  ],
+
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "content_security_policy": {
+    "script-src": "self",
+    "object-src": "self"
+  }
+}
