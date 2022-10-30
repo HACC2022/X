@@ -1,0 +1,7 @@
+{
+  "meteorRelease": "METEOR@2.7.3",
+  "appId": "1b0i1u976u6dkek239x",
+  "clientArchs": [
+    "web.browser"
+  ]
+}

@@ -1,0 +1,1 @@
+module.exportDefault(!!(typeof window !== 'undefined' && window.document && window.document.createElement));

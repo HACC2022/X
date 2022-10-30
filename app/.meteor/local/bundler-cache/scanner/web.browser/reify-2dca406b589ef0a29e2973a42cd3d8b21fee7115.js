@@ -1,0 +1,1 @@
+module.export({useSSRSafeId:()=>useSSRSafeId,useIsSSR:()=>useIsSSR,SSRProvider:()=>SSRProvider});let useSSRSafeId,useIsSSR,SSRProvider;module.link('@react-aria/ssr',{useSSRSafeId(v){useSSRSafeId=v},useIsSSR(v){useIsSSR=v},SSRProvider(v){SSRProvider=v}},0);

@@ -23,7 +23,9 @@
 
   "permissions": [
     "tabs",
-    "activeTab"
+    "activeTab",
+    "identity",
+    "identity.email"
   ],
   "content_security_policy": {
     "script-src": "self",

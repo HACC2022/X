@@ -4,12 +4,26 @@ async function getCurrentTabURL() {
   return tabs[0].url;
 }
 
+function getUserInfo() {
+  return new Promise((resolve, reject) => {
+    chrome.identity.getProfileUserInfo({'accountStatus': 'ANY'}, userInfo => {
+      resolve(userInfo.email);
+    });
+  });
+}
+
 (async () => {
   let url = await getCurrentTabURL();
+  let email = await getUserInfo();
+
   if (url.includes("https://opendata.hawaii.gov/dataset/")){
 
     // Redirect to server to creat graph
     // chrome.tabs.create({url: "https://www.youtube.com"});
+
+
+
+
   }
   else {
     alert(
